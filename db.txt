@@ -1,0 +1,13 @@
+TABLE AutoUsate (
+    ID: INT PRIMARY KEY,
+    Marca: VARCHAR(20),
+    Modello: VARCHAR(20),
+    Numero_Telaio: VARCHAR(17) UNIQUE,
+    Anno: TINYINT,
+    Chilometraggio: FLOAT(6,3),
+    Prezzo: FLOAT(5,2),
+    Colore: VARCHAR(20),
+    Tipo_Carburante: VARCHAR(20),
+    Numero_Proprietari: TINYINT,
+    Descrizione: TEXT
+);
